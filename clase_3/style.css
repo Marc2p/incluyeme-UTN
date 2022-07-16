@@ -1,0 +1,58 @@
+    
+*{
+ 
+ }
+
+
+/* Selecciono un elemento nombrandolo directamente */
+body{
+    background-color: rgb(155, 232, 129);
+
+}
+
+
+.titulo-uno{
+  text-align: center;
+  font-family: monospace;
+  font-size: 25px;
+}
+  
+
+/* Selecciono una Clase por medio del . (punto) */
+
+.titulo-dos{
+    font-family: 'Libre Baskerville', serif;
+
+    color: blue;
+}
+
+
+/* Selecciono un ID por medio del # */
+#imagenes{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(177, 194, 223);
+}
+
+#videos{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(230, 128, 255);
+}
+
+#formulario{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(230, 128, 255);
+}
+
+.fondo-formulario{
+    background-color: rgb(202, 173, 230);
+    padding: 15px;
+}
+
+.pie-pagina{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(220, 242, 183);
+}

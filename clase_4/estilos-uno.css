@@ -1,0 +1,89 @@
+/* Selector universal */
+
+* {
+	color: darkred;
+}
+
+/* Selector de etiqueta */
+
+body {
+	background: rgb(221, 234, 234);
+}
+
+/* Selector de identificador */
+
+#principal {
+	background: rgb(192, 205, 233);
+}
+
+/* Selector de clase */
+
+.negro {
+	color: black;
+}
+
+/* Pseudo-clase */
+
+h1:hover {
+	background: greenyellow;
+}
+
+/* Pseudo-elemento */
+
+h2::first-letter {
+	font-size: 2em;
+}
+
+/* Selector de atributo */
+
+a[href]{
+	background: blue;
+	color: white;
+}
+
+a[href="estilo-dos.html"]{
+	background: red;
+}
+
+/* Selectores agrupados */
+
+header, nav, main, footer {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Selector descendente */
+
+footer p {
+	color: white;
+	text-align: center;
+}
+
+/* Selectores combinados */
+
+p.rojo {
+	color: red;
+	font-size: 1.5em;
+}
+
+/* Selectores de combinación de elementos hijos */
+/* Afecta a hijos directos, no afecta a nietos */
+
+body > p {
+	font-family: monospace;
+}
+
+/* Selectores de combinación de hermano adyacente */
+/* elemento_anterior + elemento_afectado { estilos } */
+
+h1 + h2 {
+	background: yellow;
+}
+
+/* Selectores de combinación de hermano general */
+/* elemento ~ elemento { estilos } */
+
+h2 ~ p {
+	background: lightcyan;
+}
+

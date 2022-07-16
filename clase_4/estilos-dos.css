@@ -1,0 +1,24 @@
+/* Defino tamaño de los bloques principales */
+
+header, main, footer {
+	width: 80%;
+	max-width: 800px;
+	background: #DDD;
+	margin: 0 auto;
+}
+
+
+/* Defino tamaño de los bloques de segundo nivel */
+
+h1, h2 {
+	width: 80%;
+	background: #999;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+article {
+	width: 50%;
+	background: #BBB;
+	margin: 0 auto;
+}

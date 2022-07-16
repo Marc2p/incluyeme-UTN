@@ -1,0 +1,100 @@
+.all_content{
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  background-color: blueviolet;
+
+}
+.contenedor{
+   display: flex;
+    width: 800px;
+    flex-direction: column;
+    
+}   
+
+
+
+
+.uno{
+
+  background-color: rgb(184, 239, 239);
+  text-align: center;
+  border: 2px solid blue;
+}
+
+.dos{
+    background-color: rgb(189, 161, 216);
+    text-align: center;
+    border: 2px solid rgb(240, 225, 109);
+
+}
+
+.tres{
+    background-color: rgb(184, 239, 239);
+    text-align: center;
+    border: 2px solid blue;
+
+}
+
+.cuatro{
+
+    background-color: rgb(189, 161, 216);
+    text-align: center;
+    border: 2px solid rgb(240, 225, 109);
+
+}
+
+.quinto{
+
+    background-color: rgb(184, 239, 239);
+    text-align: center;
+    border: 2px solid blue;
+}
+
+.portada_uno{
+  display: flex;
+
+}
+
+
+.portada_dos{
+  display: flex;
+
+}
+
+
+/* Menu de navegacion */
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(149, 188, 209);
+    color: black;
+  }
+  
+  .active {
+    background-color: rgb(255, 213, 0);
+  }
+
+
+img{
+  width: 150px;
+  height: 250px;
+}

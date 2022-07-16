@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <!--  Tipogragias agregadas desde Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+    
+
+    <title> Programacion Web </title>
+</head>
+<body>
+  <nav> 
+    <ul>
+        <li> <a href="#inicio"> Inicio </a>   </li>
+        <li> <a href="imagenes.html">Imagenes  </a> </li>
+        <li> <a href="#videos"> Videos </a> </li>
+        <li> <a href="#formulario">  Formulario </a></li>
+        <li> <a href="#curso">  Curso </a></li>
+    </ul>
+</nav>
+<section id="imagenes">
+    <h1 class="titulo-uno"> Computadoras de escritorio: </h1>
+
+ <img src="imagenes/escritorio/computadora.jpg" alt=" Computadora de escritorio" width="450px" height="250px">
+
+ <img src="imagenes/escritorio/computadora2.jpg" alt=" Computadora de escritorio" width="450px" height="250px">
+
+ <img src="imagenes/escritorio/computadora2.jpg" alt=" Computadora de escritorio" width="450px" height="250px">
+
+ <img src="imagenes/escritorio/computadora.jpg" alt=" Computadora de escritorio" width="450px" height="250px">
+
+</section>
+
+
+<section id="videos"> 
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/75-Mau54H4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <br>
+
+<!-- Insertar video desde youtube-->
+
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/nGvd0HETDWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</section>
+
+<br> <br> 
+<!--  Formulario de contacto -->
+
+  
+
+<section id="formulario">  
+    <form action="#" method="get"> 
+
+    <h1 class="titulo-dos"> Formulario </h1>
+    
+    <div class="fondo-formulario"> 
+            <label for="nombre_usuario"> Nombre:</label>
+            <input  name="nombre_usuario" id="nombre_usuario" placeholder=" Ingresar su nombre" type="text"> 
+
+        <br><br> 
+
+
+            <label for="apellido" > Apellido:</label>
+            <input name="apellido"  id="apellido" placeholder="colocar su apellido" type=""> 
+        <br> <br> 
+         
+            <label for="edad"> Edad: </label>
+            <input name="edad" id="edad" type="number" placeholder=" ingresar su edad"> 
+      
+        <br><br>
+      
+            <label for="mail"> E-mail: </label>
+            <input name="mail" id="mail" type="email" placeholder=" mail de contacto"> 
+    
+        <br><br>
+
+            <label for="frase"> Frase Favorita: </label> <br><br>
+            <textarea name="frase" id="frase"> </textarea>
+            
+        <br>      
+        <button type="reset"> Reset </button>
+        <button type="submit"> Enviar </button>
+    </div>
+    </form>
+
+</section>
+  <br> 
+
+
+  
+  <footer class="pie-pagina">      <a href="https://utn.edu.ar/es/"> Sitio Web Oficial de la UTN  </a>
+  </footer>
+  
+
+
+
+</body>
+</html>
